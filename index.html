@@ -11,15 +11,12 @@
 </head>
 
 <body>
-    <header id="current">
+    <header id="current" class="h-25 bg-dark">
         
     </header>
     <main class="container-fluid">
         <section class="row">
-            <div class="col-12 bannerStyle">
-                <p>Music is Fun</p>
-            </div>
-            <div class="offset-8 col-4">
+            <div class="col-12 d-flex justify-content-center">
                 <form onsubmit="app.songsController.search(event)">
                     <input type="text" class="form-control" name="query" placeholder="Search For Music" />
                     <button class="btn btn-success mt-1 form-control" type="submit">
